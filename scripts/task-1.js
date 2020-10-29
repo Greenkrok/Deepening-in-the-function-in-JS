@@ -5,9 +5,9 @@
 // Расширим функцию таким образом, чтобы на цифре 60 таймер останавливался.
 // При остановке таймера выведем в консоль запись о том, что минута прошла.
 
-var i = 0;
 function showNumber(number) {
     console.log(number);
+    var i = 0;
     var timer = setInterval(function() {
         number++;
         console.log(number);
